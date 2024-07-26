@@ -10,8 +10,6 @@ let luffy = `🚩 *Respeta las reglas de LuffyBot*\n
 
 🍬 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas del bot, seras bloqueado.*
 
-⚠️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Luffy.*
-
 ${global.md}`.trim()
 await conn.reply(m.chat, luffy, m, fake)
 
