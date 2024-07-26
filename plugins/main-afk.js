@@ -16,4 +16,4 @@ ${lenguajeGB['smsAfkM1A']()} *@${m.sender.split("@")[0]}* ${lenguajeGB['smsAfkM1
 }
 
 handler.command = /^afk$/i
-export default handler
+export default handler;
