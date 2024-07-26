@@ -27,4 +27,4 @@ ${lenguajeGB['smsAfkM3']()}\n👉 *${(new Date - user.afk).toTimeString()}*`.tri
 }
 return true
 }
-export default handler
+export default handler;
