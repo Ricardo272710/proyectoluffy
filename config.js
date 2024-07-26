@@ -14,24 +14,24 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['573218138672', '𝗢𝘄𝗻𝗲𝗿 👑', true],
-['573106909511']]
+['593979133620', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
+['50764206082', '𝗢𝘄𝗻𝗲𝗿 👑', true],
+['593987173504']]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '5493794297363', '59168106005', '525610314499']
+global.mods = ['593979133620', '593979133620', '593979133620', '593979133620', '593979133620', '50764206082', '593987173504']
 
-global.suittag = ['573012482597']
+global.suittag = ['59397913362']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ 𝐋𝐮𝐟𝐟𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
-global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = '✨◌*̥₊ LᴜғғʏBᴏᴛ-MD ◌❐⚡༉'
+global.packname = '⪛✰ Spider 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.author = 'RICARDO 👑'
+global.wm = '✨◌*̥₊ spiderBᴏᴛ-MD ◌❐⚡༉'
 global.titulowm = 'LuffyBot-MD 🍟'
-global.titulowm2 = 'Ofc.Diego'
-global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
-global.botname = 'Lᴜғғʏ Bᴏᴛ - MD 🚩'
+global.titulowm2 = 'RICARDO'
+global.igfg = 'RICARDO'
+global.botname = 'spider Bᴏᴛ - MD 🚩'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
 global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
 global.vs = '2.0.2'
@@ -44,21 +44,21 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 global.catalogo = fs.readFileSync('./media/luffyimg.jpg')
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 👒
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👒 𝗦𝘂𝗽𝗲𝗿 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 🍟', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👒 𝗦𝘂𝗽𝗲𝗿 spider𝗕𝗼𝘁 🍟', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Luffy
-global.gp2 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
-global.gp3 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //ShizukaBot Y Luffy
-global.gp4 = 'https://chat.whatsapp.com/LZXw8nsXoodGGRN61zRtVG' //Sumi Sakurasawa Y Luffy
-global.comunidad1 = 'https://chat.whatsapp.com/CZf260qI6Wy0IMBBP5yO15' //Comunidad luffy
-global.comunidad2 = 'https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj' //Comunidad de Moonligth
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+global.gp1 = 'https://www.instagram.com/proyecto_r.a_' //Grupo Oficial De Luffy
+global.gp2 = 'https://www.instagram.com/proyecto_r.a_' //GataBot Y Luffy
+global.gp3 = 'https://www.instagram.com/proyecto_r.a_' //ShizukaBot Y Luffy
+global.gp4 = 'https://www.instagram.com/proyecto_r.a_' //Sumi Sakurasawa Y Luffy
+global.comunidad1 = 'https://www.instagram.com/proyecto_r.a_' //Comunidad luffy
+global.comunidad2 = 'https://www.instagram.com/proyecto_r.a_' //Comunidad de Moonligth
+global.channel = 'https://www.instagram.com/proyecto_r.a_' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //Canal MoonLight Team 
-global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
-global.md = 'https://github.com/OfcDiego/LuffyBot-MD' //Github Oficial
-global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
-global.tiktok = 'https://tiktok.com/@theluffybot' //Cuenta tiktok
+global.yt = 'https://www.instagram.com/proyecto_r.a_' //Canal De Youtube
+global.md = 'https://www.instagram.com/proyecto_r.a_' //Github Oficial
+global.fb = 'https://www.instagram.com/proyecto_r.a_' //Facebook Del Propietario
+global.tiktok = 'https://www.instagram.com/proyecto_r.a_' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -69,7 +69,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nLuffy`;
+global.wm2 = `${dia} ${fecha}\nspider`;
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
