@@ -1,61 +1,44 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
-let staff = `🚩 *EQUIPO DE AYUDANTES*
-🍟 *Bot:* ${global.botname}
-✨️  *Versión:* ${global.vs}
+const handler = async (m, {conn}) => {
+  m.reply(global.vendedores);
+};
+handler.command = /^(vendedores)$/i;
+export default handler;
+global.vendedores = `
+*VENDEDORES DE : 𝙋𝙍𝙊𝙔𝙀𝘾𝙏𝙊 𝙍.𝘼 🕷️*
 
-👑 *Propietario:*
+*👤Ig :* https://www.instagram.com/proyecto_r.a_
+*🇪🇨 RICARDO CEO 
+Contact :* https://wa.me/593979133620
 
-• OfcDiego
-🍟 *Rol:* Propietario
-🚩 *Número:* ${creador}
-✨️ *GitHub:* https://github.com/OfcDiego
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇩🇴 ANTHONY CEO
+ Contact :* https://wa.me/50764206082
 
-⁖❤️꙰  *Colaboradores:*
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇪🇨 ELI CO-CEO
+Contact :* https://wa.me/593983025939
 
-• ArizzVal
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/5215610314499
-✨️ *GitHub:* https://github.com/ArizzVal
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇲🇽 ALE CO-CEO
+Contact :* https://wa.me/+529991091929
 
-• elrebelde21
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/573147616444
-✨️ *GitHub:* https://github.com/elrebelde21
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇪🇨 ELI CO-CEO
+Contact :* https://wa.me/593983025939
 
-• AzamiJs
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/5214434703586
-✨️ *GitHub:* https://github.com/AzamiJs
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇲🇽 ALE CO-CEO
+Contact :* https://wa.me/+529991091929
 
-• Alba070503
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/59169082575
-✨️ *GitHub:* https://github.com/Alba070503
+*👤 Ig :* https://www.instagram.com/proyecto_r.a_
+*🇻🇪 SEMI CO-CEO
+ Contact :* https://wa.me/+584262668729
 
-• Shrkbadboy
-🍟 *Rol:* Developer
-🚩 *Número:* Wa.me/573218138672
-✨️ *GitHub:* https://github.com/shrkbadboy`
-await conn.sendFile(m.chat, icons, 'luffy.jpg', staff.trim(), fkontak, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `🥷 Developers 👑`,
-body: `🚩 Staff Oficial`,
-mediaType: 1,
-sourceUrl: redes,
-thumbnailUrl: icono
-}}
-}, { mentions: m.sender })
-m.react(emoji)
+𝗣𝗼𝗿 𝗦𝗶 𝗗𝗲𝘀𝗲𝗮𝘀 𝗖𝗼𝗺𝗽𝗿𝗮𝗿 𝗕𝗼𝘁 𝗣𝗿𝗼𝗽𝗶𝗼 , 𝗚𝗿𝘂𝗽𝗼 𝗢 𝗛𝗮𝗰𝗲𝗿 𝗖𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗰𝗶𝗼𝗻 
 
-}
-handler.help = ['staff']
-handler.command = ['colaboradores', 'staff']
-handler.register = true
-handler.tags = ['main']
+*🇪🇨 RICARDO CREADOR
+Contact :* https://wa.me/593979133620
 
-export default handler
+*🇩🇴 ANTHONY CREADOR
+ Contact :* https://wa.me/50764206082
+`;
