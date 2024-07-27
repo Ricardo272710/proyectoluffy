@@ -34,15 +34,15 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //creador y otros
 global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/51939041500'
-global.namechannel = 'Spider bot'
-global.namechannel2 = 'SPIDER BOT'
-global.namecomu = 'https://www.instagram.com/proyecto_r.a_'
-global.namecomu2 = 'https://www.instagram.com/proyecto_r.a_'
-global.groupsuport = '𝗦𝗼𝗽𝗼𝗿𝘁𝗲 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
-global.colab1 = 'https://www.instagram.com/proyecto_r.a_'
-global.colab2 = 'https://www.instagram.com/proyecto_r.a_'
-global.colab3 = 'https://www.instagram.com/proyecto_r.a_'
+global.asistencia = 'Wa.me/593979133620'
+global.namechannel = ''
+global.namechannel2 = ''
+global.namecomu = ''
+global.namecomu2 = ''
+global.groupsuport = ''
+global.colab1 = ''
+global.colab2 = ''
+global.colab3 = ''
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -64,12 +64,12 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
-var canal = 'https://www.instagram.com/proyecto_r.a_'  
-var git = 'https://www.instagram.com/proyecto_r.a_' 
-var youtube = 'https://www.instagram.com/proyecto_r.a_' 
-var github = 'https://www.instagram.com/proyecto_r.a_' 
-var facebook = 'https://www.instagram.com/proyecto_r.a_' 
-let tiktok = 'https://www.instagram.com/proyecto_r.a_'
+var canal = ''  
+var git = '' 
+var youtube = '' 
+var github = '' 
+var facebook = '' 
+let tiktok = ''
 
 global.redes = [canal, git, youtube, github, facebook, tiktok].getRandom()
 
