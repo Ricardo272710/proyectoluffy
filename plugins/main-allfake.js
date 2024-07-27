@@ -32,10 +32,10 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/573012482597'
+global.creador = 'Wa.me/593979133620'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/593979133620'
-global.namechannel = ''
+global.asistencia = 'Wa.me/595972157130'
+global.namechannel = '🚩 spider 𝗕𝗼𝘁 - 𝗠𝗗​᭄'
 global.namechannel2 = ''
 global.namecomu = ''
 global.namecomu2 = ''
@@ -64,14 +64,17 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
-var canal = ''  
+var canal = '' 
+var canal2 = ''  
 var git = '' 
 var youtube = '' 
 var github = '' 
 var facebook = '' 
 let tiktok = ''
 
-global.redes = [canal, git, youtube, github, facebook, tiktok].getRandom()
+global.redes = [canal, canal2, git, youtube, github, facebook, tiktok].getRandom()
+
+global.canales = [canal, canal2].getRandom()
 
 //Imagen
 let category = "imagen"
@@ -96,19 +99,37 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-// global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
-
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363192435027853@newsletter', newsletterName: "『✯ Team Comunity Luffy ✯』", serverMessageId: -1 }
-}}, { quoted: m }
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
 global.icono = [ 
-'https://qu.ax/vQmu.jpg',
-'https://qu.ax/Ptmh.jpg',
-'https://qu.ax/awYR.jpg',
-'https://qu.ax/ljre.jpg',
-'https://qu.ax/YkHj.jpg'
+'https://qu.ax/ljre.jpg', 
+'https://qu.ax/vQmu.jpg',  
+'https://qu.ax/sVjE.jpg', 
+'https://qu.ax/AwKr.jpg', 
+'https://qu.ax/bJZW.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363263466636910@newsletter", serverMessageId: 100, newsletterName: '『✯ Team Comunity Luffy ✯』', }, externalAdReply: { showAdAttribution: true, title: packname, body: '🍟 ¡Super Bot De WhatsApp!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = {
+contextInfo: {
+isForwarded: true,
+forwardedNewsletterMessageInfo: {
+newsletterJid: "",
+serverMessageId: 100,
+newsletterName: 'Spider-Bot-MD',
+},
+externalAdReply: { 
+showAdAttribution: true,
+title: packname,
+body: 'El mejor bot de WhatsApp!',
+mediaUrl: null,
+description: null,
+previewType: "PHOTO",
+thumbnailUrl: icono,
+sourceUrl: redes,
+mediaType: 1,
+renderLargerThumbnail: false
+},
+},
+}}
 
 export default handler
