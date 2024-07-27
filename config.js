@@ -25,15 +25,15 @@ global.suittag = ['59397913362']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ Spider 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
-global.author = 'RICARDO 👑'
-global.wm = '✨◌*̥₊ spiderBᴏᴛ-MD ◌❐⚡༉'
-global.titulowm = 'LuffyBot-MD 🍟'
+global.packname = 'SPIDER BOT-MD'
+global.author = 'PROYECTO R.A 👑'
+global.wm = '✨SPIDER BOT-MD⚡༉'
+global.titulowm = 'SPIDER BOT-MD'
 global.titulowm2 = 'RICARDO'
 global.igfg = 'RICARDO'
-global.botname = 'spider Bᴏᴛ - MD 🚩'
-global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
+global.botname = 'SPIDER BOT-MD'
+global.dev = '👑 Developed By • ✨ R.A'
+global.textbot = 'PROYECTO R.A'
 global.vs = '2.0.2'
 
 
@@ -47,18 +47,18 @@ global.catalogo = fs.readFileSync('./media/luffyimg.jpg')
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👒 𝗦𝘂𝗽𝗲𝗿 spider𝗕𝗼𝘁 🍟', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://www.instagram.com/proyecto_r.a_' //Grupo Oficial De Luffy
-global.gp2 = 'https://www.instagram.com/proyecto_r.a_' //GataBot Y Luffy
-global.gp3 = 'https://www.instagram.com/proyecto_r.a_' //ShizukaBot Y Luffy
-global.gp4 = 'https://www.instagram.com/proyecto_r.a_' //Sumi Sakurasawa Y Luffy
-global.comunidad1 = 'https://www.instagram.com/proyecto_r.a_' //Comunidad luffy
-global.comunidad2 = 'https://www.instagram.com/proyecto_r.a_' //Comunidad de Moonligth
-global.channel = 'https://www.instagram.com/proyecto_r.a_' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //Canal MoonLight Team 
-global.yt = 'https://www.instagram.com/proyecto_r.a_' //Canal De Youtube
-global.md = 'https://www.instagram.com/proyecto_r.a_' //Github Oficial
-global.fb = 'https://www.instagram.com/proyecto_r.a_' //Facebook Del Propietario
-global.tiktok = 'https://www.instagram.com/proyecto_r.a_' //Cuenta tiktok
+global.gp1 = '' //Grupo Oficial De Luffy
+global.gp2 = '' //GataBot Y Luffy
+global.gp3 = '' //ShizukaBot Y Luffy
+global.gp4 = '' //Sumi Sakurasawa Y Luffy
+global.comunidad1 = '' //Comunidad luffy
+global.comunidad2 = '' //Comunidad de Moonligth
+global.channel = '' //Canal Oficial
+global.channel2 = '' //Canal MoonLight Team 
+global.yt = '' //Canal De Youtube
+global.md = '' //Github Oficial
+global.fb = '' //Facebook Del Propietario
+global.tiktok = '' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -69,8 +69,8 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nspider`;
-global.nomorown = '573012482597';
+global.wm2 = `${dia} ${fecha}\nSPIDER`;
+global.nomorown = '593979133620';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
