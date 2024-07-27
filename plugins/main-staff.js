@@ -23,14 +23,6 @@ Contact :* https://wa.me/593983025939
 Contact :* https://wa.me/+529991091929
 
 *👤 Ig :* https://www.instagram.com/proyecto_r.a_
-*🇪🇨 ELI CO-CEO
-Contact :* https://wa.me/593983025939
-
-*👤 Ig :* https://www.instagram.com/proyecto_r.a_
-*🇲🇽 ALE CO-CEO
-Contact :* https://wa.me/+529991091929
-
-*👤 Ig :* https://www.instagram.com/proyecto_r.a_
 *🇻🇪 SEMI CO-CEO
  Contact :* https://wa.me/+584262668729
 
