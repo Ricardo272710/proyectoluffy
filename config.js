@@ -15,50 +15,45 @@ global.confirmCode = ''
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
 ['593979133620', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['50764206082', '𝗢𝘄𝗻𝗲𝗿 👑', true],
-['593987173504']]
+['595972157130', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['593979133620', '593979133620', '593979133620', '593979133620', '593979133620', '50764206082', '593987173504']
+global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '5493794297363', '59168106005', '525610314499']
 
-global.suittag = ['59397913362']
+global.suittag = ['593979133620']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = 'SPIDER BOT-MD'
-global.author = 'PROYECTO R.A 👑'
-global.wm = '✨SPIDER BOT-MD⚡༉'
-global.titulowm = 'SPIDER BOT-MD'
-global.titulowm2 = 'RICARDO'
-global.igfg = 'RICARDO'
-global.botname = 'SPIDER BOT-MD'
-global.dev = '👑 Developed By • ✨ R.A'
-global.textbot = 'PROYECTO R.A'
+global.packname = ''
+global.author = 'SPIDERBOT-R.A 👑'
+global.wm = '✨◌*̥₊ SPIDERBᴏᴛ-MD ◌❐⚡༉'
+global.titulowm = 'SPIDERBot-MD 🍟'
+global.titulowm2 = 'R.A'
+global.igfg = '𝙾𝙵𝙲.R.A'
+global.botname = 'SPIDER Bᴏᴛ - MD 🚩'
+global.dev = '👑 Developed By • ✨ Ofc.R.A'
+global.textbot = 'ESPERO TE SIENTAS COMOD@'
 global.vs = '2.0.2'
-
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu.jpg')
 global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
-global.catalogo = fs.readFileSync('./media/luffyimg.jpg')
-
-//• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 👒
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👒 𝗦𝘂𝗽𝗲𝗿 spider𝗕𝗼𝘁 🍟', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = '' //Grupo Oficial De Luffy
-global.gp2 = '' //GataBot Y Luffy
-global.gp3 = '' //ShizukaBot Y Luffy
-global.gp4 = '' //Sumi Sakurasawa Y Luffy
-global.comunidad1 = '' //Comunidad luffy
-global.comunidad2 = '' //Comunidad de Moonligth
-global.channel = '' //Canal Oficial
-global.channel2 = '' //Canal MoonLight Team 
-global.yt = '' //Canal De Youtube
-global.md = '' //Github Oficial
-global.fb = '' //Facebook Del Propietario
-global.tiktok = '' //Cuenta tiktok
+global.gp1 = ''
+global.gp2 = ''
+global.gp3 = ''
+global.gp4 = '' 
+global.gp5 = '' 
+global.comunidad1 = ''
+global.comunidad2 = ''
+global.channel = ''
+global.channel2 = ''
+global.yt = '' 
+global.md = '' 
+global.fb = '' 
+global.tiktok = ''
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -69,7 +64,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nSPIDER`;
+global.wm2 = `${dia} ${fecha}\nSpiderbot`;
 global.nomorown = '593979133620';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
