@@ -8,7 +8,11 @@ let luffy = `🚩 *Respeta las reglas de spiderBot*\n
 ✰ Contacta al creador si es necesario
 ✰ Pedir permiso para añadir al bot a un grupo
 
+alguna queja contactate con mis creadores
+
 🍬 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas del bot, seras bloqueado.*
++507 6420-6082
++593 97 913 3620
 
 ${global.md}`.trim()
 await conn.reply(m.chat, luffy, m, fake)
