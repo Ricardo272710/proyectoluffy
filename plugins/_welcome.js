@@ -8,17 +8,17 @@ export async function before(m, {conn, participants, groupMetadata}) {
 
   if (chat.welcome && m.messageStubType == 27) {
     let welcome = `Bienvenido @${m.messageStubParameters[0].split`@`[0]}`
-await conn.sendLuffy(m.chat, packname, dev, welcome, img, img, redes, fkontak)
+await conn.sendMini(m.chat, packname, dev, welcome, img, img, redes, fkontak)
   }
 
   if (chat.welcome && m.messageStubType == 28) {
     let bye = `Adiós @${m.messageStubParameters[0].split`@`[0]}`
-await conn.sendLuffy(m.chat, packname, dev, bye, img, img, redes, fkontak)
+await conn.sendMini(m.chat, packname, dev, bye, img, img, redes, fkontak)
   }
 
   if (chat.welcome && m.messageStubType == 32) {
     let kick = `Adiós @${m.messageStubParameters[0].split`@`[0]}`
-await conn.sendLuffy(m.chat, packname, dev, kick, img, img, redes, fkontak)
+await conn.sendMini(m.chat, packname, dev, kick, img, img, redes, fkontak)
 }}
 
 
