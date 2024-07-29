@@ -1,15 +1,17 @@
-//import db from '../lib/database.js'
+var handler = async (m, { conn, text, isROwner, isOwner }) => {
 
-let handler = async (m, { conn, text, isROwner, isOwner }) => {
-  if (text) {
-    global.db.data.chats[m.chat].sBye = text
-    m.reply(`✅ ${msg.leaMsgOn}`)
-  } else throw `✳️ ${mssg.leaMsg}`
+if (text) {
+if (isROwner) global.conn.bye = text
+else if (isOwner) conn.bye = text
+else global.db.data.chats.sBye = text
+m.reply('*✅ LA DESPEDIDA SE A CONFIGURADO CORRECTAMENTE*')
+} else throw '*⚠️ INGRESE EL TEXTO QUE QUIERE QUE ENVIE AL SALIRSE UNA PERSONA*\n\n*❕ Puede usar @user para etiquetar*'
+
 }
-handler.help = ['setbye <text>']
-handler.tags = ['group']
-handler.command = ['setbye'] 
+handler.help = ['setbye']
+handler.tags = ['grupo']
+handler.command = /^setbye$/i
+handler.group = true
 handler.admin = true
-handler.owner = false
 
 export default handler
